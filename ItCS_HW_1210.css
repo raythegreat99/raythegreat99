@@ -1,0 +1,33 @@
+body {
+    width: 35%;
+    height: 50%;
+    margin: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+}
+
+h1 {
+    background-color: khaki;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 25px;
+    text-decoration: line-through;
+}
+
+.div1 {
+    background-color: pink;
+}
+
+#a2 {
+    margin: 3%;
+    background-color: lightblue;
+}
+
+p {
+    font-weight: lighter;
+    margin-right: auto;
+}
