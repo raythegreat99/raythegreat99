@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>ItCS HW 1211</title>
+</head>
+
+<body>
+    <p>
+        <script>
+            var target = Math.floor((Math.random() * 10) + 1);
+            console.log(target);
+            var rightGuess = 0;
+            // document.write(target);
+
+            var inputNum = window.prompt("Guess a interger from 1 to 10");
+            inputNum = parseInt(inputNum);
+            if (inputNum == target) {
+                rightGuess = 1;
+            }
+            while (rightGuess == 0) {
+                var inputNum = window.prompt("Wrong guess, give it another try!");
+                inputNum = parseInt(inputNum);
+                if (inputNum == target) {
+                    rightGuess = 1;
+                }
+            }
+            document.write("Correct! The number is " + target);
+        </script>
+    </p>
+</body>
+
+</html>
